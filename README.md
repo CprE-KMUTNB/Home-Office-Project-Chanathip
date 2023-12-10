@@ -33,7 +33,7 @@ Here's that plan of this project <br>
 
 ## Overview
 In this project there consists of 5 parts that are works together.
-<p></o>
+<p></p>
 1. Node-RED <br>
 Node-RED is a Open Source Low-Code platform written in Javascript which is run as a backend for the whole project. It's also connects to the database like `influxdb` to store and get query the data of the rfid module and then Node-RED is also connected to Zigbee2MQTT service through MQTT to expand the possibility of available devices.
 <p align="center">
@@ -78,7 +78,7 @@ This device operates by sensing the motion sensor and and sends it to the [MQTT]
     Motion Detector Module
 </p>
 5. Apple Homekit <br>
-Node-RED has module called [`node-red-contrib-homekit-bridged`](https://flows.nodered.org/node/node-red-contrib-homekit-bridged) which are capable of connecting Node-RED to Apple HomeKit app (as a bridge or a device) to connect the device to HomeKit through Node-RED
+Node-RED has module called <a href="https://flows.nodered.org/node/node-red-contrib-homekit-bridged"> <code>node-red-contrib-homekit-bridged</code> </a> which are capable of connecting Node-RED to Apple HomeKit app (as a bridge or a device) to connect the device to HomeKit through Node-RED
 <p align="center">
     <img 
         src="images/homekit_interface.png" alt="image"
