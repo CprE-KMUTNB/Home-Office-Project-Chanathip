@@ -69,7 +69,7 @@ Zigbee Dongle
     3 Gang Switch
 </p>
 4. Motion Detector <br>
-This device operates by sensing the motion sensor and and sends it to the [MQTT](#more-about-mqtt) broker
+This device operates by sensing the motion sensor and and sends it to the <a href="#more-about-mqtt">MQTT</a> broker
 <p align="center">
     <img 
         src="images/motion_detect.png" alt="image"
